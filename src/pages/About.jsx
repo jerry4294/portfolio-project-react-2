@@ -66,11 +66,9 @@ const About = () => {
           <div className="about-text">
             <h2>Jashanjeet Singh</h2>
             <p className="intro-text">
-              Hi, I'm a passionate developer with a focus on creating
-              beautiful and functional web experiences. I specialize in React,
-              JavaScript, and modern web technologies. With a strong background in
-              UI/UX design, I strive to deliver user-friendly and visually
-              appealing solutions.
+            My name is Jashanjeet Singh, and I am a Web Design & Development student at the Southern Alberta Institute of Technology (SAIT). I specialize in both front-end and back-end development, with a passion for creating user-centered websites.
+
+I have experience with HTML, CSS, JavaScript, and modern frameworks, allowing me to build responsive and interactive websites. I also work with back-end technologies to ensure smooth performance and functionality. My goal is to combine technical expertise with a strong focus on user experience to deliver high-quality digital products.
             </p>
             <div id="skills-section" className="skills-section">
               <h3>Core Skills</h3>
@@ -135,7 +133,7 @@ const About = () => {
               <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
               <button type="submit">Send Message</button>
             </form>
-            <p>Or connect with me on <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+            <p>Or connect with me on <a href="https://www.linkedin.com/in/jashanjeetsingh21/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
             <button className="close-button" onClick={toggleContactForm}>
               Close
             </button>

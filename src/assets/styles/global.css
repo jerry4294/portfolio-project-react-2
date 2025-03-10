@@ -1,0 +1,25 @@
+/* styles/global.css */
+:root {
+    /* Primary Colors */
+    --color-primary: #2C2F3B; /* Charcoal Gray */
+    --color-secondary: #D0A57A; /* Soft Gold */
+  
+    /* Text Colors */
+    --color-text: #F2F2F2; /* Soft White */
+    --color-text-light: #A0A0A0; /* Light Gray */
+  
+    /* Background Colors */
+    --color-background: #1E1E1E; /* Dark Gray */
+    --color-background-light: #2C2C2C; /* Slightly Lighter Gray */
+  
+    /* Accent Colors */
+    --color-accent: #B22222; /* Muted Red */
+    --color-accent-hover: #D4A373; /* Warm Gold */
+  
+    /* Social Icons */
+    --color-social: #F2F2F2; /* Soft White */
+    --color-social-hover: #D0A57A; /* Soft Gold */
+  
+    /* Borders */
+    --color-border: #444; /* Subtle Border Color */
+  }

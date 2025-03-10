@@ -1,7 +1,27 @@
-.App {
-  text-align: center;
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Playfair+Display:wght@600&family=Roboto:wght@400;500&family=Lora:wght@400;500&family=Poppins:wght@500;600&family=Open+Sans:wght@400;600&display=swap');
+
+/* Global Styles */
+:root {
+  --color-primary: #2C2F3B; /* Charcoal Gray */
+  --color-secondary: #D0A57A; /* Soft Gold */
+  --color-text: #F2F2F2; /* Soft White */
+  --color-text-light: #A0A0A0; /* Light Gray */
+  --color-background: #1E1E1E; /* Dark Gray */
+  --color-border: #444; /* Subtle Border Color */
+  --color-background-light: #2C2F3B; /* Charcoal Gray */
 }
 
+
+/* App Base Styles */
+.App {
+  text-align: center;
+  background-color: var(--color-background); /* Dark Gray */
+  color: var(--color-text); /* Soft White */
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif; /* Body font stack */
+}
+
+/* App Logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,21 +33,45 @@
   }
 }
 
+/* App Header */
 .App-header {
-  background-color: #282c34;
+  background-color: var(--color-primary); /* Charcoal Gray */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--color-text); /* Soft White */
 }
 
+/* App Link */
 .App-link {
-  color: #61dafb;
+  color: var(--color-secondary); /* Soft Gold */
 }
 
+/* App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-background); /* Dark Gray */
+  color: var(--color-text); /* Soft White */
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif; /* Body font stack */
+}
+
+/* Global Button Reset */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+/* Logo Spin Animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

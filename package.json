@@ -2,7 +2,7 @@
   "name": "portfolio-website-react-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jerry4294.github.io/portfolio-website-react-2",
+  "homepage": "https://jerry4294.github.io/portfolio-website-react-2/app.js",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

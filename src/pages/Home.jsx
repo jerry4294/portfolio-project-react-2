@@ -70,7 +70,7 @@ const Home = () => {
           <p>
           I focus on creating exceptional digital experiences that blend design and functionality with user needs at the core. Each project starts with a deep understanding of the audience, ensuring that every detail enhances engagement and usability. I prioritize clean, maintainable code and responsive design, ensuring seamless performance across all devices. I collaborate closely with clients to transform their ideas into innovative, high-quality solutions, while staying ahead of emerging technologies and trends.
           </p>
-          <button className="cta-button" onClick={() => window.location.href = '/portfolio'}>Learn More</button>
+          <button className="cta-button" onClick={() => window.location.href = './portfolio'}>Learn More</button>
         </div>
       </div>
 
@@ -91,7 +91,7 @@ const Home = () => {
           <p>
           With a deep understanding of front-end development and a passion for clean, responsive design, I build websites that are both visually appealing and highly functional. I specialize in crafting seamless user experiences by combining modern technologies with creative design, ensuring every project stands out and delivers lasting impact.
           </p>
-          <button className="cta-button" onClick={() => window.location.href = '/about'}>View Skills</button>
+          <button className="cta-button" onClick={() => window.location.href = './about'}>View Skills</button>
         </div>
       </div>
 
